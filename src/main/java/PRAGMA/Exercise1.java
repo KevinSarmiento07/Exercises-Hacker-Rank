@@ -27,8 +27,6 @@ public class Exercise1 {
         for(int i = 1 ; i <  arr.size(); i++){
             long contador = 0;
             
-               
-            
                 for(int j = 0; j < i ; j++){
                     contador += (arr.get(i) - arr.get(j));
                 }
